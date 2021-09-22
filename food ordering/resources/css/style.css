@@ -1,0 +1,752 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    /* ------------------header section----------------------*/
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.74)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+/*-----------buttons--------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit],
+button[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: backgroung-color 0.2s border 0.2s color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghots:link,
+.btn-ghots:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #a15512;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    border: 1px solid #e67e22;
+}
+
+.set_btn {
+    padding: 1px;
+}
+
+.btn-cart {
+    direction: unset;
+    border: 0px;
+}
+
+.btn-ghots:hover,
+.btn-ghots:active {
+    border: 1px solid #e67e22;
+    color: white;
+}
+
+.local a {
+    position: fixed;
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 590px;
+    margin-left: 1400px;
+    display: inline-block;
+    padding: 4px 9px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: none;
+    transition: backgroung-color 0.2s border 0.2s color 0.2s;
+}
+
+.local a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-black {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo-black {
+    display: none;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    ;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.order {
+    margin-left: 100%;
+    margin-top: 0;
+    float: left;
+}
+
+
+/* stkiy nav (phala page walata yana eka) */
+
+.stiky {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.904);
+    box-shadow: 0 2px rgba(255, 255, 255, 0.863);
+}
+
+.stiky .main-nav li a:link,
+.stiky .main-nav li a:visited {
+    padding: 16px 0px;
+    color: #555;
+}
+
+.stiky .logo {
+    display: none;
+}
+
+.stiky .logo-black {
+    display: block;
+}
+
+.main-nav {
+    margin-top: 18px;
+}
+
+
+/*----------------section---------*/
+
+section {
+    padding: 80px 0px;
+}
+
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/*-----------section paragrphs*/
+
+.para1 {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 1%;
+}
+
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 155%;
+}
+
+.section-f .para1 {
+    margin-bottom: 30px;
+}
+
+
+/* ------------icons--------*/
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* ------------------meals-----------*/
+
+.meal-show {
+    list-style: none;
+    width: 100%;
+}
+
+.meal-show li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    /*effect ek dala tinne zoom in zoom out wenna*/
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+
+/*-----------how it works---------*/
+
+.step-box {
+    margin-top: 30px;
+}
+
+.step-box:first-child {
+    text-align: right;
+    padding: 3%;
+}
+
+.step-box:last-child {
+    padding-left: 3%;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.work-step {
+    margin-bottom: 50px;
+}
+
+.work-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+}
+
+.button-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.work-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.section-step .row h2 {
+    margin-top: 60%;
+}
+
+.section-step {
+    background-color: #eee;
+}
+
+
+/*----------CITIES-------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.city-feture {
+    margin-bottom: 5px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5 px;
+}
+
+
+/*links*/
+
+.a {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+}
+
+.a:hover {
+    color: #555;
+    border-bottom: 0px solid transparent;
+}
+
+
+/* --------------cus feedback----------  */
+
+.section-imotional {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.767)), url("img/back-customers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+    font-size: 100%;
+    height: 550px;
+    color: white;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 180%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    background-color: transparent;
+    margin-bottom: 3px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite img {
+    height: 80px;
+    border-radius: 40%;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+
+/* ------------------price section-------------------*/
+
+.section-price {
+    background-color: #eee;
+}
+
+.section-price2 {
+    background-color: white;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 7px;
+    max-width: 300px;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(196, 155, 155);
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+.plan-box div:first-child {
+    background-color: rgb(250, 249, 249);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0px;
+}
+
+.plan-price {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-price span {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0px;
+}
+
+
+/*-----------sing up----------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0px auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(143, 139, 139);
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0px;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+/*------------footer--------*/
+
+footer {
+    background-color: #333;
+    padding: 40px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links a:visited {
+    text-decoration: none;
+    border: 0px;
+    color: rgb(100, 96, 96);
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links a:active {
+    color: rgb(247, 242, 242);
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 180%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+.imag {
+    size: 10px;
+}
+
+.imgg {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+}
+
+.div-meal {
+    background-color: white;
+}
+
+.image-meal {
+    margin-top: 15px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    height: 700px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    color: black;
+    background-color: #eee;
+    margin-top: 0px;
+    margin-right: -82px;
+}
+
+.lb {
+    float: left;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 200px;
+}
+
+.content-table thead tr {
+    background-color: #e67e22;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #e67e22;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.active-row {
+    text-align: right;
+}
+
+.wrapper {
+    padding: 32px;
+}
+
+.cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+    transition: 400ms;
+}
+
+.cookie-container.active {
+    bottom: 0;
+}
+
+.cookie-container a {
+    color: #f5f6fa;
+}
+
+.cookie-btn,
+.cookie-btn_deny {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cookie-btn:hover,
+.cookie-btn_deny:hover {
+    background-color: #a5290be7;
+}
+
+.a_tag:hover {
+    color: #a5290be7;
+}
